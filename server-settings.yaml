@@ -1,0 +1,13 @@
+HTTPS_PORT: 4443 # 443 is a privileged port, only for superusers.
+
+# If you do not set both SSL_CERTFILE and SSL_KEYFILE below, the
+# server will use an ad-hoc HTTPS certificate. This is fine for
+# development or testing work, but for production work it is 
+# HIGHLY ENCOURAGED that you roll a proper HTTPS certificate
+# and set the requisite paths below.
+#
+# Let's Encrypt (https://letsencrypt.org) may make this easier!
+#
+# SSL_CERTFILE: "path_to_certfile"
+# SSL_KEYFILE: "path_to_keyfile"
+
