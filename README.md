@@ -10,7 +10,10 @@ A learning AI system designed for building code.
 1: Install prerequisites:
 * Flask: `pip install Flask` or `pip3 install Flask`.
 * PyYAML: `pip install PyYAML` or `pip3 install PyYAML`
-* If you'll be using ad-hoc HTTPS certificates (RECOMMENDED ONLY FOR TESTING/DEV!), Cryptography: `pip install cryptography` or `pip3 install cryptography`
+* Waitress: `pip install waitress` or `pip3 install waitress`
+* pyOpenSSL: `pip install pyOpenSSL` or `pip3 install pyOpenSSL`
+* If you'll be using ad-hoc HTTPS certificates (RECOMMENDED ONLY FOR TESTING/DEV!):
+** Cryptography: `pip install Cryptography` or `pip3 install Cryptography`
 
 2: Edit server-settings.yaml to taste.
 
